@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<HomeScreen />} exact />
+        <Route path='/e-commerce/' element={<HomeScreen />} exact />
         <Route path='/login' element={<LoginScreen />} />
         <Route path='/register' element={<RegisterScreen />} />
         <Route path='/cart' element={<CartScreen />} />
