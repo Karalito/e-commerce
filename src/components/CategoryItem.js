@@ -55,7 +55,7 @@ const Button = styled.button`
 function CategoryItem({ item }) {
   return (
     <Container>
-      <Image src={item.img} />
+      <Image src={item.img} alt={item.title}/>
       <Info>
         <Title>{item.title}</Title>
         <Button>Browse Now</Button>

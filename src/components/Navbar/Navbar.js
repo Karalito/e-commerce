@@ -96,7 +96,7 @@ function Navbar() {
           <MenuItem style={{ flexDirection: 'column' }}>
          
             <Badge badgeContent={2} color='secondary'>
-            <a href='/cart'><ShoppingCartOutlined color='black'/></a>
+            <a href='/cart'><ShoppingCartOutlined /></a>
             </Badge>
           </MenuItem>
         </Right>

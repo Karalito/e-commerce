@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Announcement from '../components/Announcement'
 import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar/Navbar'
 import NewsLetter from '../components/NewsLetter'
 import Products from '../components/Products'
 const Container = styled.div``
@@ -32,7 +32,7 @@ function ProductList() {
     <Container>
       <Announcement />
       <Navbar />
-      <Title>Smartphones</Title>
+      <Title>Products</Title>
       <FilterContainer>
         <Filter>
           <FilterText>Filter Products:</FilterText>

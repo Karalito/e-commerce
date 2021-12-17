@@ -71,7 +71,7 @@ const RightNav = ({ open }) => {
           color='secondary'
           style={{ paddingRight: '15px' }}
         >
-          <ShoppingCartOutlined color='white' />
+          <ShoppingCartOutlined/>
           CART
         </Badge>
       </li>
