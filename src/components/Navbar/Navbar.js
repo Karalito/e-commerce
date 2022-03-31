@@ -90,13 +90,13 @@ function Navbar() {
             <Input placeholder='Search' />
             <Search style={{ color: 'gray', fontSize: '16px' }} />
           </SearchContainer>
-          <MenuItem><a href='/register'>Register</a></MenuItem>
-          <MenuItem ><a href='/login'>Sign In</a></MenuItem>
+          <MenuItem><a href='/e-commerce/register'>Register</a></MenuItem>
+          <MenuItem ><a href='/e-commerce/login'>Sign In</a></MenuItem>
 
           <MenuItem style={{ flexDirection: 'column' }}>
          
             <Badge badgeContent={2} color='secondary'>
-            <a href='/cart'><ShoppingCartOutlined /></a>
+            <a href='/e-commerce/cart'><ShoppingCartOutlined /></a>
             </Badge>
           </MenuItem>
         </Right>

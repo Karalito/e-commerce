@@ -11,13 +11,13 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<HomeScreen />} exact />
-        <Route path='/login' element={<LoginScreen />} />
-        <Route path='/register' element={<RegisterScreen />} />
-        <Route path='/cart' element={<CartScreen />} />
-        <Route path='/login' element={<LoginScreen />} />
-        <Route path='/products' element={<ProductList />} />
-        <Route path='/product' element={<ProductScreen />} />
+        <Route path='/e-commerce/' element={<HomeScreen />} exact />
+        <Route path='/e-commerce/login' element={<LoginScreen />} />
+        <Route path='/e-commerce/register' element={<RegisterScreen />} />
+        <Route path='/e-commerce/cart' element={<CartScreen />} />
+        <Route path='/e-commerce/login' element={<LoginScreen />} />
+        <Route path='/e-commerce/products' element={<ProductList />} />
+        <Route path='/e-commerce/product' element={<ProductScreen />} />
       </Routes>
     </BrowserRouter>
   )
